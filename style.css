@@ -1,0 +1,120 @@
+body{
+    background-image: linear-gradient(#0f0c29, #302b63);
+}
+h1{
+  text-align: center;
+  color:white;
+  font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+  text-align: center;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#me {
+  width:500px;
+  display: block;
+  margin: auto;
+}
+
+
+#bg {
+  animation: bgfade 1.0s;
+  transform-origin: center bottom;
+}
+
+@keyframes bgfade{
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#me {
+  animation: mefade 1.25s;
+  transform-origin: center bottom;
+}
+
+@keyframes mefade{
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+
+#leaf1 {
+  animation: leaf1fade 1.5s;
+  transform-origin: top left;
+}
+
+@keyframes leaf1fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+#leaf2 {
+  animation: leaf2fade 1.5s;
+  transform-origin: top left;
+}
+
+@keyframes leaf2fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#leaf3 {
+  animation: leaf3fade 1.5s;
+  transform-origin: top left;
+}
+
+@keyframes leaf3fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#Layer_8{
+  animation: leaf4fade 1.5s;
+  transform-origin: top right;
+}
+
+@keyframes leaf4fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#Layer_9{
+  animation: leaf5fade 1.5s;
+  transform-origin: top right;
+}
+
+@keyframes leaf5fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#leaf6{
+  animation: leaf6fade 1.5s;
+  transform-origin: top right;
+}
+
+@keyframes leaf6fade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#eyes:hover{
+  animation: eyefade 1.5s;
+  transform-origin: center;
+}
+@keyframes eyefade{
+  0%   { transform: scaleY(0.1);}
+  100% { transform: scaleY(1.0);}
+}
+
+footer {
+  text-align: center;
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
